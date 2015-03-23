@@ -1,7 +1,7 @@
 install: bin/python
 
 bin/python:
-	virtualenv .
+	virtualenv --python=python2 .
 	bin/pip install -r requirements.txt
 
 serve: bin/python
